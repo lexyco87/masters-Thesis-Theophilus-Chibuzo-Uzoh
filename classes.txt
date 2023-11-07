@@ -1,0 +1,5 @@
+car
+van
+person
+bus
+truck
