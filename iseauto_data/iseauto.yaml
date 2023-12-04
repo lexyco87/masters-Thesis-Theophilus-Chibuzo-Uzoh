@@ -1,0 +1,13 @@
+# iseauto dataset
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or
+# 3) list: [path1/images/, path2/images/]
+train: ./iseauto_data/iseauto/train.txt  # 4800 images
+val: ./iseauto_data/iseauto/val.txt  # 1600 images
+test: ./iseauto_data/iseauto/test.txt  # 1600 images
+
+# number of classes
+nc: 5
+
+# class names
+names: [ 'car', 'van', 'person', 'bus', 'truck' ]
